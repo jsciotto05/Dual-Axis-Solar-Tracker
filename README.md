@@ -12,10 +12,13 @@ For this demo project, I used the following materials:
  - Adafruit motor shield
 
 The wiring was set up in the following way:
+<br>
 <img src="/assets/CircuitDiagram_D1.png" alt="circuit diagram 1"/>
 
 Since I used 4 LDRs, each photoresistor was set up like so:
+<br>
 <img src="/assets/CircuitDiagram_D2.png" alt="circuit diagram 2"/>
 
 For the code of the project, the following control flow diagram was used in a while loop to ensure that the average resistance value was achieved across all 4 LDRs:
+<br>
 <img src="/assets/ControlFlowDiagram.png" alt="control flow diagram"/>
